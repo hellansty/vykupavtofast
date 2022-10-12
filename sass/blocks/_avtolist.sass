@@ -1,0 +1,43 @@
+.avtolist
+    &-block
+        &__description
+            margin: 20px auto
+            width: 70%
+            font-size: 24px
+            span
+                +bold
+        &__list
+            margin: 20px 20%
+            font-size: 24px
+            li
+                font-size: 50px
+                padding: 2px
+                color: #CA3E47
+                span
+                    color: black
+                    font-size: 24px
+
+@media (max-width: 480px)
+    .avtolist
+        &-block
+            &__description
+                margin: auto
+                width: 80%
+                font-size: 20px
+            &__list
+                margin: 30px 10%
+                li
+                    font-size: 30px
+                    span
+                        font-size: 20px
+                    
+@media (max-width: 320px)
+    .avtolist
+        &-block
+            &__description
+                font-size: 18px
+            &__list
+                li
+                    font-size: 25px
+                    span
+                        font-size: 15px

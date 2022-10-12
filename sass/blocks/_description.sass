@@ -1,0 +1,90 @@
+.description
+    &-block
+        display: flex
+        justify-content: space-between
+        align-items: center
+        margin-left: 10%
+        margin-right: 10%
+        &__description
+            width: 35%  
+            margin-top: -20px  
+        &__img
+            width: 50%
+            img
+                width: 500px
+
+@media (max-width: 1920px)
+    .description
+        &-block
+            margin-left: 20%
+            
+@media (max-width: 1366px) 
+    .description
+        &-block
+            margin-left: 15%
+
+@media (max-width: 1024px)
+    .description
+        &-block
+            &__img
+                img
+                    width: 390px
+
+@media (max-width: 768px)
+    .description
+        &-block
+            margin-left: 5%
+            &__description
+                width: 50%   
+            &__img
+                width: 50%
+                img
+                    width: 400px
+
+@media (max-width: 600px)
+    .description
+        &-block
+            &__description
+                font-size: 10px
+            &__img
+                img
+                    width: 300px
+@media (max-width: 480px)
+    .description
+        &-block
+            display: block
+            margin-left: 12%
+            &__description
+                width: 100%  
+                margin-top: 30px  
+            &__img
+                width: 100%
+                img
+                    width: 400px
+                    margin-left: -30px
+
+@media (max-width: 414px)
+    .description
+        &-block
+            &__img
+                width: 100%
+                img
+                    width: 350px
+            
+@media (max-width: 375px)
+    .description
+        &-block
+            margin-left: 8%
+                
+@media (max-width: 320px)
+    .description
+        &-block
+            &__img
+                img
+                    width: 300px
+                
+
+
+
+
+                

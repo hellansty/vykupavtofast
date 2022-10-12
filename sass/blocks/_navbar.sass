@@ -1,0 +1,110 @@
+.navbar
+    &-wrap 
+        display: flex
+        align-items: center
+        min-height: 90px
+    &__contacttous
+        margin-left: 20%
+    &__contacts
+        text-align: left
+        margin: 1px 10%
+        font-size: 15px
+        display: block
+        +light
+    &__work-time
+        font-size: 10px
+        size: 10px
+    &__socials a
+        margin: auto 5px
+    &__socials img
+        height: 20px
+.logo
+    margin: 40px 60px
+    &__text
+        display: block
+        font-size: 30px
+        text-transform: uppercase
+        +bold
+    &__description
+        display: block
+        font-size: 15px
+a 
+    color: white
+
+@media (max-width: 1920px)
+    .navbar
+        &__contacttous
+            margin-left: 35%
+
+@media (max-width: 1440px)
+    .navbar
+        &__contacttous
+            margin-left: 25%
+
+@media (max-width: 1366px)
+    .navbar
+        &__contacttous
+            margin-left: 20%
+
+@media (max-width: 1024px)
+    .navbar
+        &__contacttous
+            width: 150px
+        &__socials 
+            display: block
+            width: 8%
+
+@media (max-width: 768px)
+    .navbar
+        &__contacttous
+            display: none
+        &__contacts
+            margin-left: 25%
+    .logo
+        &__text
+            font-size: 25px
+        &__description
+            font-size: 13px
+
+@media (max-width: 600px)
+    .navbar
+        &__contacttous
+            margin-left: 20%
+
+@media (max-width: 480px)
+    .logo
+        margin: 20px
+        margin-top: 30px
+        width: 90%
+
+@media (max-width: 414px)
+    .header
+        display: block
+    .navbar
+        padding: 10px 
+        &-wrap 
+            padding: 10px auto
+        &__contacts
+            text-align: center
+            background-color: rgb(65, 65, 65, 1)
+            padding: 15px
+            margin: -10px
+            border: 1px solid #6f6c6c
+            width: 100%
+            position: fixed
+            top: 0
+        &__socials 
+            margin-top: 50px
+            display: block
+            width: 10%
+    .logo
+        margin: 20px
+        margin-top: 90px
+        width: 90%
+        &__description
+            font-size: 20px
+
+@media (max-width: 320px)
+    .logo
+        margin-top: 90px
+

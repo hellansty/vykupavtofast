@@ -1,0 +1,59 @@
+.faq-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+/* Style the buttons that are used to open and close the faq-page body */
+.faq-page {
+    background-color: #CA3E47; 
+    color: white;
+    cursor: pointer;
+    padding: 30px 20px;
+    width: 60%;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    transition: 0.4s;
+    margin: 10px auto;
+    font-weight: lighter;
+}
+.faq-body{
+    margin: auto;
+    width: 60%; 
+}
+
+/* Style the faq-page panel. Note: hidden by default */
+.faq-body {
+    margin-top: -10px;
+    padding: 20px 60px;
+    background-color: #D9D9D9;
+    display: none;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+@media (max-width: 480px) {
+    .faq-page {
+        padding: 20px 10px;
+        width: 80%;
+        font-size: 16px;  
+    }
+    .faq-body {
+        margin-top: -10px;
+        padding: 10px 10px;
+    }
+    .faq-body{
+        width: 80%; 
+    }
+}
+
+@media (max-width: 320px) {
+    .faq-page {
+        padding: 15px 10px;
+        width: 80%;
+        font-size: 15px;  
+    }
+    .faq-body {
+        padding: 10px 10px;
+    }
+}

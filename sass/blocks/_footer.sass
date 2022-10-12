@@ -1,0 +1,93 @@
+footer
+    background-color: rgb(65, 65, 65)
+    color: white
+.footer
+    &-wrap 
+    &__contacts
+        text-align: left
+        font-size: 15px
+        display: block
+        +light    
+    &__work-time
+        font-size: 10px
+        size: 10px
+    &__info
+        margin-left: 5%
+        margin-top: -40px    
+    &__socials 
+        margin: 20px 5%
+    &__socials a
+        margin: 5px
+        display: inline-block
+    &__socials img
+        height: 20px
+.footerlogo
+    padding: 5%
+    &__text
+        display: block
+        font-size: 30px
+        text-transform: uppercase
+        +bold
+    &__description
+        display: block
+        font-size: 15px
+
+@media (max-width: 1920px)
+    footer
+        height: 420px
+
+@media (max-width: 1440px)
+    footer
+        height: 350px
+
+@media (max-width: 1280px)
+    footer
+        height: 330px
+
+@media (max-width: 1024px)
+    footer
+        height: 300px
+
+@media (max-width: 768px)
+    footer
+        height: 250px
+    .footer
+        &-wrap 
+        &__info
+            font-size: 12px
+    .footerlogo
+        margin-bottom: 2%
+        &__text
+            font-size: 25px
+        &__description
+            font-size: 10px
+
+@media (max-width: 600px)
+    footer
+        height: 210px
+
+
+@media (max-width: 480px)
+    footer
+        height: 200px
+    .footerlogo
+        margin-bottom: 5%
+
+@media (max-width: 320px)
+    footer
+        height: 170px
+    .footer
+        &-wrap 
+        &__info
+            font-size: 10px
+        &__socials img
+            height: 15px
+
+        .footerlogo
+            margin-bottom: 9%
+            &__text
+                font-size: 23px
+            &__description
+                font-size: 8px
+
+
